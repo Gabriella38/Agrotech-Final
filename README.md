@@ -15,14 +15,13 @@ Electronics:
 * x1 CO2 Sensor
 * x1 O2 Sensor
 * x1 LDR (Light dependent resistor)
-* x1 נגד
+* x1 Resistor
 * x1 SHT31 Sensor
 * x2 Potentiometers
 
 Hardware:
 
 * x1 Plastic box
-* x1 גומי ךכבלים
 
 Disclaimers:
 * We were able to only monitor, Light, humidity and temperature. CO2 and O2 sensors were simulated using Potentiometers and code that set out to “fake” CO2 and O2 data.
