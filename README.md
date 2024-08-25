@@ -43,7 +43,8 @@ In addition The system as it stands lacks the integration of CO2 and O2 sesnors,
   * Brown - 12V power supply or GND for relays and sensors
 
 # Code
-[code]([https://github.com/Gabriella38/Agrotech-Final/blob/main/Code).
+[Can be found here](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
+
 
 
 # The final outcome
