@@ -22,6 +22,7 @@ Electronics:
 Hardware:
 
 * x1 Plastic box
+  
 
 🚨**Disclaimers:**
 * We were able to only monitor, Light, humidity and temperature. CO2 and O2 sensors were simulated using Potentiometers and code that set out to “fake” CO2 and O2 data.
