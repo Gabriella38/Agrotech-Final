@@ -36,11 +36,11 @@ In addition The system as it stands lacks the integration of CO2 and O2 sesnors,
 בסוך העלאה לthingpeakd
 
 ## Sketch
-  * Red - VCC
-  * Blue - GND for 12V components or analog read for sensors
-  * Black - GND
-  * Orange - VCC for sensors and analog pins for relays (also yellow)
-  * Brown - 12V power supply or GND for relays and sensors
+  * **Red** - VCC
+  * **Blue** - GND for 12V components or analog read for sensors
+  * **Black** - GND
+  * **Orange** - VCC for sensors and analog pins for relays (also yellow)
+  * **Brown** - 12V power supply or GND for relays and sensors
 
 # Code
 [Can be found here](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
