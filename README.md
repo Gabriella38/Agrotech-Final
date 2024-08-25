@@ -5,7 +5,7 @@ Our goal is to track metabolism indicators by the use of sensors to assess micro
 The system is equipped with a range of sensors: CO2, O2, temperature, humidity, and light intensity to track environmental conditions. Data from these sensors is transmitted to our [Thingspeak Channel](https://thingspeak.com/channels/2595959). When CO2 levels reach a predefined threshold (1000 ppm, 400-10000 ppm range), The system automatically activates two peristaltic pumps: one to introduce fresh air into the closed environment and another to expel used air, ensuring optimal conditions for precise microbial viability assessment.
 ### Components:
 
-<u> Electronics: <\u>
+Electronics:
 
 * x1 firebeetle ESP32 microcontroller 
 * x1 Relays 
@@ -23,7 +23,7 @@ Hardware:
 
 * x1 Plastic box
 
-Disclaimers:
+🚨Disclaimers:
 * We were able to only monitor, Light, humidity and temperature. CO2 and O2 sensors were simulated using Potentiometers and code that set out to “fake” CO2 and O2 data.
 
 # Construction:
