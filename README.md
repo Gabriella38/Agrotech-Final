@@ -30,7 +30,7 @@ Hardware:
 # Construction:
 
 ## Prototype
-The initial setup involved connecting the sensors to the ESP32 microcontroller and testing the basic functionality. and the relays were connected to control the peristaltic pumps. The system was assembled on a breadboard to validate the design before integrating it into a more permanent solution.
+The initial setup involved connecting the sensors to the ESP32 microcontroller and testing the basic functionality. and the relays were connected to control the peristaltic pumps. The system was assembled on a breadboard to validate the design before integrating it into a more permanent solution.![click here](Images/fa040255-1ef4-4629-a5cc-cf67b4195f89.jpeg)
 
 In addition The system as it stands lacks the integration of CO₂ and O₂ sesnors, in order to deal with that we used 2 potentiometers that are programmed to feed “fake” CO₂ and O₂ data so that we have a way to control the pumps and something to show in the presentation.
 חיישני אור וטמפרטורה 
