@@ -11,25 +11,23 @@ The system is equipped with a range of sensors: CO₂ , O₂ , temperature, humi
 
 🔌 Electronics: 
 
-◾ x1 firebeetle ESP32 microcontroller 
-◾ x1 Relays 
-◾ x2 Peristaltic Pump 
-◾ Multiple Cables
-◾ x1 12V Power Source
-◾ x1 CO₂ Sensor
-◾ x1 O₂ Sensor
-◾ x1 LDR (Light dependent resistor)
-◾ x1 Resistor
-◾ x1 SHT31 Sensor
-◾ x2 Potentiometers
+* x1 firebeetle ESP32 microcontroller 
+* x1 Relays 
+* x2 Peristaltic Pump
+* Multiple Cables
+* x1 12V Power Source
+* x1 CO₂ Sensor
+* x1 O₂ Sensor
+* x1 LDR (Light dependent resistor)
+* x1 Resistor
+* x1 SHT31 Sensor
+* x2 Potentiometers
 
 Hardware:
-
-◾ x1 Plastic box
+* x1 Plastic box
   
 
-❗**Disclaimers:**
-* We were able to only monitor, Light, humidity and temperature. CO₂ and O₂ sensors were simulated using Potentiometers and code that set out to “fake” CO₂ and O₂ data.
+❗**Disclaimers:** We were able to only monitor, Light, humidity and temperature. CO₂ and O₂ sensors were simulated using Potentiometers and code that set out to “fake” CO₂ and O₂ data.
 
 # Construction:
 
@@ -60,7 +58,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 Peristaltic pumps [code]
 
-[Intigrated code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
+🔺 Intigrated [code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
 
 
 
