@@ -3,9 +3,11 @@
 Our goal is to track metabolism indicators by the use of sensors to assess microbial viability within a closed system over time, where a peristaltic pump that refreshes the air once CO₂ concentration reaches a specific threshold.
 ### Background
 The incubator we developed is designed for evaluating the metabolic processes of various microorganisms, including bacteria and algae, with a focus on their respiratory mechanisms. For instance, bacteria that engage in aerobic respiration will exhibit oxygen consumption and carbon dioxide emission. Conversely, algae, which undergo photosynthesis, will absorb carbon dioxide and release oxygen into the environment.
+
 ![WhatsApp Video 2024-08-25 at 13 28 09](https://github.com/user-attachments/assets/54b4b1f7-7ac9-466e-8b4c-eb4fbc3e37cc)
 ### System Concept
 The system is equipped with a range of sensors: CO₂ , O₂ , temperature, humidity, and light intensity to track environmental conditions. Data from these sensors is transmitted to our [Thingspeak Channel](https://thingspeak.com/channels/2595959). When CO₂ levels reach a predefined threshold (1000 ppm, 400-10000 ppm range), The system automatically activates two peristaltic pumps: one to introduce fresh air into the closed environment and another to expel used air, ensuring optimal conditions for precise microbial viability assessment.
+
 ![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39)
 ### Components:
 
