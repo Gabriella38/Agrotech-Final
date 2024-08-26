@@ -48,11 +48,22 @@ The system was assembled on a breadboard to validate the design before integrati
   * 🟤 **Brown** - 12V power supply or GND for relays and sensors
 
 # Code
-[Can be found here](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
+We recommend individually testing each code with its corresponding component before integrating the entire system.
+🔺 photoresistor [code] 
+🔺 SHT31 [code]
+🔺 Potensiometers [code]
+🔺 Relay [code]
+🔺 Peristaltic pumps [code]
+
+[Intigrated code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
 
 
 
 # The final outcome
+
+We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
+For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
+
 
 Picture from the Thingspeak:
 
