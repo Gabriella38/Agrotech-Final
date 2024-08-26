@@ -41,11 +41,11 @@ The system was assembled on a breadboard to validate the design before integrati
 
 
 ## Sketch
-  * 🔴 **Red** - VCC
-  * 🔵 **Blue** - GND for 12V components or analog read for sensors
-  * ⚫ **Black** - GND
-  * 🟠 **Orange** - VCC for sensors and analog pins for relays (also yellow)
-  * 🟤 **Brown** - 12V power supply or GND for relays and sensors
+   🔴 **Red** - VCC
+   🔵 **Blue** - GND for 12V components or analog read for sensors
+   ⚫ **Black** - GND
+   🟠 **Orange** - VCC for sensors and analog pins for relays (also yellow)
+   🟤 **Brown** - 12V power supply or GND for relays and sensors
 
 # Code
 We recommend individually testing each code with its corresponding component before integrating the entire system.
