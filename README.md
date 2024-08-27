@@ -41,6 +41,8 @@ The system was assembled on a breadboard to validate the design before integrati
 
 
 ## Sketch
+
+![](Images/powersuplly.png)
    
    🔴 **Red** - VCC
    
