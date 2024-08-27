@@ -1,5 +1,5 @@
 // Define the light sensor pin
-#define LIGHT_SENSOR_PIN A0  // A0 pin for the light sensor (analog input)
+#define LIGHT_SENSOR_PIN A3  // A3 pin for the light sensor (analog input)
 
 // Variable to store the value read from the analog pin
 int lightSensorValue;
