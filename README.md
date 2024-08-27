@@ -73,7 +73,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 Relay and Peristaltic pumps [code](PUMPS)
 
-🔺 **Intigrated** [code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
+🔺 **Intigrated** [code](new)
 
 
 
