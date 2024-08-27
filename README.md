@@ -71,9 +71,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 Potensiometers [code](potensiometers)
 
-🔺 Relay [code]
-
-🔺 Peristaltic pumps [code]
+🔺 Relay and Peristaltic pumps [code](PUMPS)
 
 🔺 **Intigrated** [code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
 
@@ -82,7 +80,7 @@ We recommend individually testing each code with its corresponding component bef
 # The final outcome
 
 ![](Images/box.jpg)
-<img src="Images/box1" alt="Description" width="500" height="600"> <img src="Images/box2" alt="Description" width="500" height="600">
+<img src="Images/box1" alt="Description" width="500" height="600">  <img src="Images/box2" alt="Description" width="500" height="600">
 
 We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
 For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
