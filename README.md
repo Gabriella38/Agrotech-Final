@@ -65,7 +65,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 Peristaltic pumps [code]
 
-🔺 Intigrated [code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
+🔺 **Intigrated** [code](https://github.com/Gabriella38/Agrotech-Final/blob/main/Code)
 
 
 
