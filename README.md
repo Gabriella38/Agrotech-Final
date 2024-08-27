@@ -67,7 +67,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 photoresistor [code](PHOTORESISTOR.ino)
 
-🔺 SHT31 [code]
+🔺 SHT31 [code](SHT31)
 
 🔺 Potensiometers [code](potensiometers)
 
