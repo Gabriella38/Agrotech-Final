@@ -46,9 +46,9 @@ The system was assembled on a breadboard to validate the design before integrati
    
    🔴 **Red** - 3V3
    
-   🔵**Blue** - Analog read for sensors
+   🔵 **Blue** - Analog read for sensors
    
-   🟡**Yellow** - Analog read for sensors
+   🟡 **Yellow** - Analog read for sensors
    
    ⚫ **Black** - GND
 
