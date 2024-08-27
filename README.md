@@ -44,15 +44,21 @@ The system was assembled on a breadboard to validate the design before integrati
 
 ![](Images/powersuplly.png)
    
-   🔴 **Red** - VCC
+   🔴 **Red** - 3V3
    
-   🔵 **Blue** - GND for 12V components or analog read for sensors
+   🔵**Blue** - Analog read for sensors
+   
+   🟡**Yellow** - Analog read for sensors
    
    ⚫ **Black** - GND
+
+   🟣 **Purple** - Relay common terminal (COM)
+
+   🟢 **Green** - SDA/SCL
    
-   🟠 **Orange** - VCC for sensors and analog pins for relays (also yellow)
+   🟠 **Orange** - VCC 
    
-   🟤 **Brown** - 12V power supply or GND for relays and sensors
+   🟤 **Brown** - 12V power supply 
 
 # Code
 We recommend individually testing each code with its corresponding component before integrating the entire system.
