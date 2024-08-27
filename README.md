@@ -37,7 +37,7 @@ Hardware:
 The initial setup involved integrating various sensors, including the photoresistor and SHT31, with the ESP32 microcontroller to verify basic functionality. To simulate the CO₂ and O₂ sensors, we utilized two potentiometers programmed to generate "fake" CO₂ and O₂ data. This allowed us to control the peristaltic pumps and provide data for presentation purposes. the relays were connected to control the peristaltic pumps. Subsequently, the peristaltic pumps were integrated into the system. Finally, we developed and implemented the code to upload all collected data to ThingSpeak for monitoring and analysis.
 The system was assembled on a breadboard to validate the design before integrating it into a more permanent solution.
 
-<img src="Images/breadboard" alt="Description" width="500" height="700"> 
+<img src="Images/breadboard" alt="Description" width="500" height="600"> 
 
 
 ## Sketch
@@ -82,7 +82,7 @@ We recommend individually testing each code with its corresponding component bef
 # The final outcome
 
 ![](Images/box.jpg)
-<img src="Images/box1" alt="Description" width="500" height="700">  <img src="Images/box2" alt="Description" width="500" height="700">
+<img src="Images/box1" alt="Description" width="500" height="600">  <img src="Images/box2" alt="Description" width="500" height="600">
 
 We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
 For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
