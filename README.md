@@ -69,7 +69,7 @@ We recommend individually testing each code with its corresponding component bef
 
 🔺 SHT31 [code]
 
-🔺 Potensiometers [code]
+🔺 Potensiometers [code](potensiometers)
 
 🔺 Relay [code]
 
