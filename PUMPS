@@ -1,0 +1,43 @@
+// Define analog sensor pin and relay pin
+int sensorPin_CO2 = A0;   // CO2 sensor pin
+int RelayPin = A4;        // Relay pin for controlling the pump
+
+// Variables for sensor readings and calculated values
+int sensorValue_CO2 = 0;
+float co2PPM = 0.0;
+
+void setup() {
+  // Start serial communication
+  Serial.begin(9600);
+
+  // Set sensor pin and relay pin modes
+  pinMode(sensorPin_CO2, INPUT);
+  pinMode(RelayPin, OUTPUT);
+  digitalWrite(RelayPin, LOW); // Ensure pump is off initially
+}
+
+void loop() {
+  // Read CO2 sensor value
+  sensorValue_CO2 = analogRead(sensorPin_CO2);
+  
+  // Calculate CO2 ppm
+  co2PPM = 400.0 + ((sensorValue_CO2 * (10000.0 - 400.0)) / 4095.0);
+
+  // Print CO2 data to Serial monitor
+  Serial.print("CO2 - Sensor value: ");
+  Serial.print(sensorValue_CO2);
+  Serial.print(", CO2 ppm: ");
+  Serial.println(co2PPM);
+
+  // Control relay for peristaltic pump based on CO2 ppm
+  if (co2PPM < 1000) {
+    digitalWrite(RelayPin, HIGH); // Turn on the relay (start pump)
+    Serial.println("Pump ON");
+  } else {
+    digitalWrite(RelayPin, LOW); // Turn off the relay (stop pump)
+    Serial.println("Pump OFF");
+  }
+
+  // Delay before the next loop iteration
+  delay(1000); // 1000 ms (time for reading)
+}
