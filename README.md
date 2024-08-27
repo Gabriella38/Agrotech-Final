@@ -37,7 +37,7 @@ Hardware:
 The initial setup involved integrating various sensors, including the photoresistor and SHT31, with the ESP32 microcontroller to verify basic functionality. To simulate the CO₂ and O₂ sensors, we utilized two potentiometers programmed to generate "fake" CO₂ and O₂ data. This allowed us to control the peristaltic pumps and provide data for presentation purposes. the relays were connected to control the peristaltic pumps. Subsequently, the peristaltic pumps were integrated into the system. Finally, we developed and implemented the code to upload all collected data to ThingSpeak for monitoring and analysis.
 The system was assembled on a breadboard to validate the design before integrating it into a more permanent solution.
 
-![](https://github.com/gabriella38/Agrotech-Final/main/Images/fa040255-1ef4-4629-a5cc-cf67b4195f89.jpeg)
+<img src="Images/breadboard" alt="Description" width="500" height="700"> 
 
 
 ## Sketch
