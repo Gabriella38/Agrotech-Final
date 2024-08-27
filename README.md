@@ -25,7 +25,7 @@ The system is equipped with a range of sensors: CO₂ , O₂ , temperature, humi
 * x1 SHT31 Sensor
 * x2 Potentiometers
 
-Hardware:
+Hardware: 
 * x1 Plastic box
   
 
