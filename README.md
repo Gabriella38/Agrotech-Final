@@ -65,7 +65,7 @@ The system was assembled on a breadboard to validate the design before integrati
 # Code
 We recommend individually testing each code with its corresponding component before integrating the entire system.
 
-🔺 photoresistor [code](Agrotech-Final/blob/main/PHOTORESISTOR.ino)
+🔺 photoresistor [code](PHOTORESISTOR.ino)
 
 🔺 SHT31 [code]
 
