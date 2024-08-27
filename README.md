@@ -79,6 +79,8 @@ We recommend individually testing each code with its corresponding component bef
 
 # The final outcome
 
+![](Images/box.jpg)
+
 We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
 For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
 
