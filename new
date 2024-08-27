@@ -88,4 +88,78 @@ void loop() {
 
   Serial.print("O2 - Sensor value: ");
   Serial.print(sensorValue_O2);
-  Serial.print(", O2 percentage: "
+  Serial.print(", O2 percentage: ");
+  Serial.print(o2Percentage);
+  Serial.println("%");
+
+  Serial.print("LDR Value: ");
+  Serial.println(sensorValue_LDR);
+
+  if (!isnan(temperature)) {
+    Serial.print("Temperature (°C): ");
+    Serial.println(temperature);
+  } else {
+    Serial.println("Failed to read temperature");
+  }
+
+  if (!isnan(humidity)) {
+    Serial.print("Humidity (%): ");
+    Serial.println(humidity);
+  } else {
+    Serial.println("Failed to read humidity");
+  }
+
+  // Control relay for peristaltic pump based on CO2 ppm and O2 percentage
+  if (co2PPM < 1000 || o2Percentage < 5.0) {
+    digitalWrite(RelayPin, HIGH); // Turn on the relay (start pump)
+    Serial.println("Pump ON");
+  } else {
+    digitalWrite(RelayPin, LOW); // Turn off the relay (stop pump)
+    Serial.println("Pump OFF");
+  }
+
+  // Check if it's time to upload data
+  if (currentMillis - previousMillis >= interval) {
+    // Save the last time you uploaded data
+    previousMillis = currentMillis;
+
+    // Upload sensor data to ThingSpeak
+    uploadToThingSpeak(co2PPM, o2Percentage, sensorValue_LDR, humidity, temperature);
+  }
+
+  // Delay before the next loop iteration
+  delay(1000); // 1000 ms (time for reading)
+}
+
+void connectToWiFi() {
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.print("WiFi connected - IP address: ");
+  Serial.println(WiFi.localIP());
+}
+
+void uploadToThingSpeak(float co2, float o2, int ldr, float humidity, float temperature) {
+  // Set fields with sensor data
+  ThingSpeak.setField(1, co2);
+  ThingSpeak.setField(2, ldr);  // Light sensor data in field 2
+  ThingSpeak.setField(3, o2);
+  ThingSpeak.setField(4, humidity);  // Humidity data in field 4
+  ThingSpeak.setField(5, temperature);  // Temperature data in field 5
+
+  // Write to ThingSpeak
+  int httpCode = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
+
+  // Check if successful
+  if (httpCode == 200) {
+    Serial.println("Data sent to ThingSpeak successfully.");
+  } else {
+    Serial.print("Error sending data to ThingSpeak: ");
+    Serial.println(httpCode);
+  }
+}
