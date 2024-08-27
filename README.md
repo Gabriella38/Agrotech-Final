@@ -21,7 +21,7 @@ The system is equipped with a range of sensors: CO₂ , O₂ , temperature, humi
 * x1 CO₂ Sensor
 * x1 O₂ Sensor
 * x1 LDR (Light dependent resistor)
-* x1 Resistor
+* x1 Resistor (10K Ω)
 * x1 SHT31 Sensor
 * x2 Potentiometers
 
