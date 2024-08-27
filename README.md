@@ -44,21 +44,23 @@ The system was assembled on a breadboard to validate the design before integrati
 
 ![](Images/powersupply.png)
    
-   🔴 **Red** - 3V3
-   
-   🔵 **Blue** - Analog read for sensors
-   
-   🟡 **Yellow** - Analog read for sensors
    
    ⚫ **Black** - GND
+   
+   🔵 **Blue** - Analog read for sensors
 
-   🟣 **Purple** - Relay common terminal (COM)
+   🟤 **Brown** - 12V power supply
 
    🟢 **Green** - SDA/SCL
    
    🟠 **Orange** - VCC 
+
+   🟣 **Purple** - Relay common terminal (COM)
+
+   🔴 **Red** - 3V3
    
-   🟤 **Brown** - 12V power supply 
+   🟡 **Yellow** - Analog read for sensors
+    
 
 # Code
 We recommend individually testing each code with its corresponding component before integrating the entire system.
@@ -80,9 +82,7 @@ We recommend individually testing each code with its corresponding component bef
 # The final outcome
 
 ![](Images/box.jpg)
-
-![](Images/box1)
-![](Images/box2)
+<img src="Images/box1" alt="Description" width="500" height="700">  <img src="Images/box2" alt="Description" width="500" height="700">
 
 We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
 For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
