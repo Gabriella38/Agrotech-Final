@@ -92,9 +92,6 @@ For example, in the case of algae, an increase in O₂ levels and a decrease in 
 
 
 
-## Data analysis
-Picture from the Thingspeak:
-
 
 
 ©️ THE MASTERS
