@@ -12,7 +12,7 @@ To maintain optimal conditions for precise microbial viability assessment, the s
 Additionally, the system ensures adequate oxygen levels by activating the pumps if the O₂ concentration falls below 5%, within its operational range of 0-25%. This dual-condition activation mechanism helps to maintain a stable environment, which is critical for accurate and reliable microbial assessments.
 For comprehensive evaluation, the results obtained from this system should be compared to a control experiment. 
 
-![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39)
+![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39) ![](Images/abstract)
 ### Components:
 
 🔌 Electronics: 
