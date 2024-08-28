@@ -13,7 +13,7 @@ Additionally, the system ensures adequate oxygen levels by activating the pumps 
 The sensors readings are updated every minute, while the data is sent to ThingSpeak every 5 minutes.
 For comprehensive evaluation, the results obtained from this system should be compared to a control experiment. 
 
-![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39) <img src="Images/abstract" alt="Description" width="500" height="400"> 
+![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39)  <img src="Images/abstract" alt="Description" width="500" height="400"> 
 ### Components:
 
 🔌 Electronics: 
@@ -85,7 +85,7 @@ We recommend individually testing each code with its corresponding component bef
 # The final outcome
 
 ![](Images/box.jpg)
-<img src="Images/box1" alt="Description" width="450" height="550">  <img src="Images/box2" alt="Description" width="450" height="550">
+<img src="Images/box1" alt="Description" width="450" height="550"> <img src="Images/box2" alt="Description" width="450" height="550">
 
 We developed an incubator designed to contain a liquid growth medium with microorganisms and to monitor and measure various parameters and by-products of their respiration over time. This setup provides valuable insights into their biological processes. 
 For example, in the case of algae, an increase in O₂ levels and a decrease in CO₂ over time would indicate healthy growth and vitality. Conversely, a slow rate of gas exchange would suggest that the algae are struggling to survive.
