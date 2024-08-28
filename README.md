@@ -10,6 +10,7 @@ The system is equipped with a range of sensors, including CO₂, O₂, temperatu
 
 To maintain optimal conditions for precise microbial viability assessment, the system features automatic controls for environmental regulation. When CO₂ levels exceed a predefined threshold of 1000 ppm (within a range of 400-10000 ppm), the system activates two peristaltic pumps: one to introduce fresh air into the closed environment and another to expel used air.
 Additionally, the system ensures adequate oxygen levels by activating the pumps if the O₂ concentration falls below 5%, within its operational range of 0-25%. This dual-condition activation mechanism helps to maintain a stable environment, which is critical for accurate and reliable microbial assessments.
+The sensors readings are updated every minute, while the data is sent to ThingSpeak every 5 minutes.
 For comprehensive evaluation, the results obtained from this system should be compared to a control experiment. 
 
 ![WhatsApp Video 2024-08-25 at 13 44 03](https://github.com/user-attachments/assets/e2cf128d-bfe1-45ee-99d6-ac7a9e034c39) <img src="Images/abstract" alt="Description" width="500" height="400"> 
